@@ -7,8 +7,8 @@ trigger:
 - main
 
 pool:
-  #vmImage: ubuntu-latest
-  name: pndo
+  vmImage: ubuntu-latest
+  #name: pndo
 
 steps:
 - task: Maven@3
